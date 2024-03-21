@@ -1,1 +1,13 @@
-Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+• Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Spoofing is a kind of cyber-attack where one entity impersonates a legitimate entity to take advantage of their rights.
+For example, in a banking site, if attacker is able to impersonate a banker, then given right conditions, they can do unauthorised transactions,
+share user data, or even bring the bank servers down. It can be of different types, namely, IP spoofing, email spoofing, or DNS spoofing.
+It can be prevented by implemented strict security for authentication like biometric or two-factor authentication.
+By ensuring strong authentication and encryption measures are in place, secure systems significantly reduce the risk of spoofing attacks.
+
+• Which CIA properties do you think Spoofing violates?
+
+While the main impact is on integrity, some types of spoofing like DNS spoofing can also lead to violation of availability
+by enabling denial of service attacks. Confidentiality is generally not directly impacted by spoofing,
+unless the spoofed access leads to revelation of sensitive data.

@@ -1,0 +1,17 @@
+• Briefly explain the vulnerability and why the secure version prevents the
+vulnerability.
+
+Tampering is malicious modification of data or systems by unauthorized party. This can lead to compromise in integrity
+and trust on the system. Common examples can be data tampering, software tampering, hardware tampering etc.
+For example, if a hacker gets a way to induce a kind of trojan horse into systems that randomly starts encrypting files
+in the server, it will be an example of data tampering as now state of data on the server after being affected cannot be trusted.
+Secure systems implement stronger authentication and access controls, cryptographic techniques to detect any unauthorized modification in data,
+secure communication protocols like HTTPS,SSH etc. These mechanisms make it harder for the attacker to get unauthorized data
+as well as helps detect tampering quickly so necessary action can be taken to prevent any damage from it.
+
+
+• Which CIA property does tampering violate?
+
+Tampering primarily violates the Integrity property of the CIA.
+Confidentiality may be violated if the tampering allows unauthorized access to sensitive data.
+Availability could be impacted if the tampering disrupts system operations or enables denial-of-service attacks.
