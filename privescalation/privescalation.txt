@@ -1,0 +1,15 @@
+Briefly explain the Privilege Escalation vulnerability and why the secure version prevents the
+vulnerability.
+
+This vulnerability allows an attacker to gain higher access privileges than intended, potentially compromising the entire system.
+The secure version prevents this by implementing robust access controls, principle of least privilege, secure coding practices
+(input validation, proper error handling, etc.), and avoiding hardcoded credentials.
+
+What additional security mechanisms can you incorporate to prevent such
+attacks?
+
+- Regular security updates and patching to address known privilege escalation vulnerabilities.
+- Separating privileges and enforcing role-based access controls.
+- Implementing secure authentication and authorization mechanisms.
+- Monitoring and logging user activities to detect suspicious behavior.
+- Conducting regular security audits and penetration testing.

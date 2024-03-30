@@ -1,2 +1,13 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Denial of Service (DoS) Vulnerability:
+
+Denial of Service (DoS) is a vulnerability where an attacker overwhelms a system with requests/traffic, exhausting
+resources and making it unavailable to legitimate users. The secure version prevents this by implementing rate limiting,
+input validation, resource isolation, and robust error handling to mitigate DoS attack vectors.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+Additional security mechanisms to prevent DoS attacks include Web Application Firewalls (WAFs) to filter malicious traffic,
+load balancing to distribute traffic across multiple servers, DDoS protection services, redundancy and failover mechanisms,
+and continuous monitoring and incident response plans.

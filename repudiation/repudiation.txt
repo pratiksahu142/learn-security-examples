@@ -1,2 +1,13 @@
-- Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+- Briefly explain the Repudiation vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+
+Repudiation Vulnerability:
+
+Repudiation refers to the ability of an entity to deny or dispute their involvement in a particular action or event.
+The secure version is better at preventing repudiation by implementing robust logging, auditing mechanisms, and
+strong authentication with non-repudiation (e.g., digital signatures, timestamps).
+This ensures that actions and events are accurately recorded, and entities cannot falsely deny their involvement.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+
+- Regularly archiving and securing audit logs and records to maintain a comprehensive audit trail.
+- Enforcing strict access controls and segregation of duties to prevent unauthorized modification or deletion of logs.

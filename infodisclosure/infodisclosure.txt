@@ -1,3 +1,17 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Information disclosure refers to the unintended or unauthorized exposure of sensitive data or system details that could
+potentially be exploited by an attacker. It is a vulnerability that can lead to the compromise of confidential information
+or enable further attacks by revealing system internals. The secure version prevents this by implementing input validation,
+proper error handling, access controls, secure headers, and encryption.
+
 Which CIA property does tampering violate?
+
+Information disclosure violates the Confidentiality principle of the CIA triad, as it allows unauthorized access to sensitive information.
+
 What additional security mechanisms can you incorporate?
+
+Secure coding training, penetration testing, security monitoring and logging, data classification and protection,
+secure software development lifecycle (SSDLC), secure coding libraries, and regular security updates and patching.
+By incorporating these mechanisms, the risk of information disclosure vulnerabilities can be significantly reduced,
+protecting the confidentiality of sensitive data and system details.
